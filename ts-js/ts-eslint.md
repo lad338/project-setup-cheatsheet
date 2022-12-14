@@ -1,6 +1,6 @@
 # Commands
 ```
-npm install --save-dev eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
+npm install --save-dev eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin typescript
 touch .eslintrc
 touch .eslintignore
 ```
