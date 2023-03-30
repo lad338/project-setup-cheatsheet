@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "eslint": "eslint . --ext .ts",
+    "prettier:ts": "prettier --config .prettierrc '**/*.{ts,tsx}' --write",
+    "p": "yarn prettier:ts",
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/index.js\""
+  }
+}
